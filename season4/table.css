@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://c0.wallpaperflare.com/preview/1014/708/922/colombia-buenaventura-sea-ocean.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    overflow: auto;
+}
+td, th{
+    border: 1px double black;
+    padding: 10PX 20px;
+    color: #ffffff;
+    font-size: 17px;
+}
+tr{
+    border-top:1px solid #a1a1a1;
+    border-bottom: 1px #a1a1a1;
+}
+header{
+    width: 100%;
+    text-align: left;
+    border-left: #a1a1a1;
+    overflow-y: auto;
+}
+.logo{
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+}
