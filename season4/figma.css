@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(111, 75, 203);
+}
+table{
+    width:70%;
+    height: 500px;
+    margin: 150px auto;
+    text-align: center;
+    border-collapse:collapse;
+    border-radius: 20px;
+    background-color: rgb(240, 245, 245);
+}
+th, td{
+    /* background-color: rgb(240, 245, 245); */
+    
+    padding: 10px 20px;
+    /* color: rgb(111, 75, 203); */
+    text-align: center;
+    /* color: #667085; */
+}
+tr{
+    border: 1px solid #802c9c;
+}
+table .Rating span{
+    display: inline-block;
+    font-size:  30px ;
+    cursor: pointer;
+    color: rgb(138, 43, 226);
+    transition-duration: .3s;
+}
+table .Rating span:hover{
+    transform: scale(1.7);
+    color: rgb(236, 211, 49);
+    
+    
+ }
+ table .main{
+    transition: 0.7s background;
+ }
+ table .main:hover{
+    background-color: #e297de;
+    
+ }
+ table .click input[type="checkbox"]:hover{
+    display: inline-block;
+    transform: scale(1.6);
+    background: blue;
+ }
